@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Ledger Sawa",
+    "slug": "ledger-sawa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "ledgersawa",
+    "android": {
+      "package": "com.calvin.ledgersawa",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#14497A"
+      },
+      "backgroundColor": "#FFFFFF"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "./plugins/withAndroidSigning",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_WITH_EAS_PROJECT_ID"
+      }
+    },
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}
